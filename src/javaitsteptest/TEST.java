@@ -14,4 +14,8 @@ public class TEST {
     
     } 
     
+    public int Test(int a) {    
+    
+        return 3;
+    } 
 }
