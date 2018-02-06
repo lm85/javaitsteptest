@@ -10,8 +10,6 @@ package javaitsteptest;
  * @author Director itSTEP
  */
 public interface InterfaceB {
-    default void chlup() {
-    
-    System.out.print("B");
-    }
+    public void chlup();
+    public int chlup (int a);
 }

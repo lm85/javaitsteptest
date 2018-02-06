@@ -10,5 +10,8 @@ package javaitsteptest;
  * @author masic
  */
 public interface InterfaceA {
-    public void chlup(); 
+       default void chlup() {
+    
+    System.out.print("A");
+    }
 }
