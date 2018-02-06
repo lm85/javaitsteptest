@@ -10,5 +10,5 @@ package javaitsteptest;
  * @author masic
  */
 public interface InterfaceA {
-    
+    public void chlup(); 
 }
