@@ -11,6 +11,7 @@ package javaitsteptest;
  */
 public class TEST {
     int a=0;
+    int b=3;
     public void Test() {    
     
     } 
