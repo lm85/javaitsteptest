@@ -17,5 +17,10 @@ public class TEST {
     public int Test(int a) {    
     
         return 3;
+    }
+    
+    public int Test(int a,int b) {    
+    
+        return 3;
     } 
 }
