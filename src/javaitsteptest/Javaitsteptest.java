@@ -44,7 +44,7 @@ public class Javaitsteptest {
          System.out.print("key is: "+ mentry.getKey() + " & Value is: ");
          System.out.println(mentry.getValue());
       }
-      
+      int a=3;
       //koment
         
         
