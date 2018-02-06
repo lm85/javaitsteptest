@@ -5,6 +5,9 @@
  */
 package javaitsteptest;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  *
  * @author masic
@@ -17,6 +20,13 @@ public class Javaitsteptest {
     public static void main(String[] args) {
         NewClass c = new NewClass();
         c.chlup();
+        
+        Map<String, String> map = new HashMap<String, String>();
+        map.put("ptak", "kolibřík");
+        map.put("muj ptak", "nejmejší");
+
+        System.out.println(map.get("ptak")); //jedna
+        System.out.println(map.get("muj ptak")); //dva
     }
     
 }
