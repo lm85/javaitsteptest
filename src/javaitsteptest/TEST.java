@@ -10,5 +10,8 @@ package javaitsteptest;
  * @author masic
  */
 public class TEST {
+    public void Test() {    
+    
+    } 
     
 }
