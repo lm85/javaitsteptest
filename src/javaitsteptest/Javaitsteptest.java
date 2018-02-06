@@ -45,6 +45,7 @@ public class Javaitsteptest {
          System.out.println(mentry.getValue());
       }
       int a=3;
+      int b=3;
       //koment
         
         
