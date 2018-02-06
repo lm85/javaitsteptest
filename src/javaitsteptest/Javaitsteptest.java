@@ -15,7 +15,8 @@ public class Javaitsteptest {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic herezuz
+        NewClass c = new NewClass();
+        c.chlup();
     }
     
 }
