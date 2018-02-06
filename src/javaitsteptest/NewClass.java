@@ -11,9 +11,9 @@ package javaitsteptest;
  */
 public class NewClass implements InterfaceA, InterfaceB{
 
-    @Override
+   /* @Override
     public void chlup() {
        // throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
+    */
 }
