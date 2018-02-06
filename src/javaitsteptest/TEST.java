@@ -10,6 +10,7 @@ package javaitsteptest;
  * @author masic
  */
 public class TEST {
+    int a=0;
     public void Test() {    
     
     } 
@@ -22,5 +23,6 @@ public class TEST {
     public int Test(int a,int b) {    
     
         return 3;
+
     } 
 }
