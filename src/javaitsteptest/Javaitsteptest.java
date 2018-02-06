@@ -6,7 +6,9 @@
 package javaitsteptest;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
+import java.util.Set;
 
 /**
  *
@@ -27,6 +29,27 @@ public class Javaitsteptest {
 
         System.out.println(map.get("ptak")); //jedna
         System.out.println(map.get("muj ptak")); //dva
+        
+        Map<String, Integer> map2 = new HashMap<String, Integer>();
+        map2.put("ptak", 2);
+        System.out.println(map2.get("ptak")); //jedna
+        
+        Map<String, NewClass> map3 = new HashMap<String, NewClass>();
+        map3.put("ptak", new NewClass());
+        
+         Set set = map3.entrySet();
+      Iterator iterator = set.iterator();
+      while(iterator.hasNext()) {
+         Map.Entry mentry = (Map.Entry)iterator.next();
+         System.out.print("key is: "+ mentry.getKey() + " & Value is: ");
+         System.out.println(mentry.getValue());
+      }
+        
+        
+      
+        
+         
+        
     }
     
 }
